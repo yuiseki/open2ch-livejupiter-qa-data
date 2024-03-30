@@ -26,3 +26,5 @@ print(len(livejupiter_qa_pair))
 
 livejupiter_qa_dataset = datasets.Dataset.from_list(livejupiter_qa_pair)
 print(livejupiter_qa_dataset)
+
+livejupiter_qa_dataset.push_to_hub("yuiseki/open2ch-livejupiter-qa")
